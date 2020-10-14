@@ -114,6 +114,10 @@ ul > li > a:hover{
   padding: 10px;
 }
 
+.left_col ul > li > a:hover{
+  background: lightgrey;
+}
+
 .left_col ul > li > a{
   text-decoration: none;
   line-height: 20px;
@@ -147,6 +151,7 @@ h2 > i{
 
 .middle_col > h2{
   margin: 10px 20px;
+  text-shadow: 1px 1px #c65529;
 }
 
 /* <!-- // MIDDLE COLUMN --> */
@@ -192,37 +197,45 @@ h2 > i{
 /* FOOTER */
 footer{
   float: left;
-  width: 100%;
   height: 100px;
   margin-bottom: 20px;
   background: white;
   border-radius: 10px;
 }
 
-.up_footer{
+.text_footer{
   text-align: center;
-  width: 100%;
-  height: 40%;
-  border-bottom: 2px solid black;
+  color: gray;
+}
+
+hr{
+  border-style: inset;
 }
 
 .footer_icons{
-  width: 100%;
-  height: 60%;
-  text-align: center;
-  display: inline-block;
+  width: 1200px;
 }
 
-.footer_icons i{
+.icons {
+  float: left;
   font-size: 40px;
-  padding: 10px 70px;
+  width: calc(1200px / 3);
+  height: 80px;
+  text-align: center;
 }
-.footer_icons > a {
+
+.icons a{
+  vertical-align: middle;
+}
+
+.footer_icons  a {
   text-decoration: none;
-  color: lightgrey;
+  color: grey;
 }
-.footer_icons i:hover{
+
+.footer_icons  a:hover {
   color: blue;
 }
+
 
 /* // FOOTER */
